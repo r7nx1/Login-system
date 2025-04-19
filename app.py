@@ -9,7 +9,7 @@ from forms import LoginForm, RegistrationForm
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key-here'
-app.config['MONGO_URI'] = 'mongodb+srv://tncxzml:CPsMBvK4w47HOsU0@cardify.05dzz.mongodb.net/auth_database'
+app.config['MONGO_URI'] = 'MongoDB-KEY'
 
 # Initialize extensions
 bootstrap = Bootstrap(app)
